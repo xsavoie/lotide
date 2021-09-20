@@ -17,9 +17,9 @@ describe("#countOnly", () => {
     assert.deepEqual(countOnly(firstNames, { "Jason": true}), {Jason: 1});
   });
   it("returns {} when looking for ['Karima']", () => {
-    assert.deepEqual(countOnly(firstNames, { "Karima": true}), {})
-  })
+    assert.deepEqual(countOnly(firstNames, { "Karima": true}), {});
+  });
   it("returns {Fang: 2} when looking for ['Fang']", () => {
-    assert.deepEqual(countOnly(firstNames, {"Fang": true}), {Fang: 2})
-  })
+    assert.deepEqual(countOnly(firstNames, {"Fang": true}), {Fang: 2});
+  });
 });
