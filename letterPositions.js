@@ -13,10 +13,3 @@ const letterPositions = function(sentence) {
 };
 
 module.exports = letterPositions;
-
-// console.log(letterPositions("xavier"));
-// console.log(letterPositions("This is a test"));
-// console.log(letterPositions("a lot of spaces to test out how this works"));
-// console.log(letterPositions("LoWeRCaSe aND UppErCaSE StuFF"));
-
-// assertArraysEqual(letterPositions("hello").e, [1]);
